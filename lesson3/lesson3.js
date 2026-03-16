@@ -1,5 +1,7 @@
 //
 
+
+
 // const divs = document.querySelectorAll("div");
 // console.log(divs);
 // document.getElementById("target").id = "changedId";
@@ -60,10 +62,29 @@ function render(){
       <td>${data[i].price}</td>
       <td>${data[i].category}</td>
       <td>${data[i].stock}</td>
-      <td><button>Xóa</button><button>Sửa</button></td>
+      <td><button onclick="xoa(${i})" class="btn btn-danger">Xóa</button><button>Sửa</button></td>
     </tr>`
     console.log(renderString)
     }
     document.getElementById("target").innerHTML = renderString
 }
 render()
+function xoa(i){
+  if(window.confirm("Bạn có chắc chắn muốn xóa sản phẩm này không?")){
+    data.splice(i,1)
+
+  }
+  render()
+
+
+ 
+}
+function addProduct(e){
+  e.preventDefault()
+  const tenSP = document.querySelector("#tenSP").value
+  const giaSP = document.querySelector("#giaSP").value
+  const danhMucSP = document.querySelector("#danhMucSP").value
+  const soLuongSP = document.querySelector("#soLuongSP").value
+  data.push({name: tenSP, price: giaSP,category: danhMucSP, stock: soLuongSP})
+  render()
+}
