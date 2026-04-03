@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop Dell Inspiron 15",
+      "price": 18500000,
+      "category": "Laptop",
+      "stock": 12,
+      "brand": "Dell",
+      "description": "Laptop phù hợp cho học tập và làm việc văn phòng",
+      "createdAt": "2026-04-01"
+    },
+    {
+      "id": 2,
+      "name": "iPhone 13",
+      "price": 15000000,
+      "category": "Smartphone",
+      "stock": 8,
+      "brand": "Apple",
+      "description": "Điện thoại cao cấp với hiệu năng mạnh",
+      "createdAt": "2026-04-01"
+    },
+    {
+      "id": 3,
+      "name": "Tai nghe Sony WH-1000XM4",
+      "price": 6500000,
+      "category": "Accessories",
+      "stock": 20,
+      "brand": "Sony",
+      "description": "Tai nghe chống ồn tốt, pin lâu",
+      "createdAt": "2026-04-01"
+    },
+    {
+      "id": 4,
+      "name": "Chuột Logitech G102",
+      "price": 350000,
+      "category": "Accessories",
+      "stock": 50,
+      "brand": "Logitech",
+      "description": "Chuột gaming giá rẻ, hiệu năng ổn định",
+      "createdAt": "2026-04-01"
+    }
+  ]
+}
