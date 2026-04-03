@@ -29,7 +29,7 @@ function renderProducts(arr) {
                 </span>
             </td>
             <td>
-                <button onclick="xoa()" class="btn btn-danger btn-sm me-2">
+                <button onclick="xoa(${product.id})" class="btn btn-danger btn-sm me-2">
                     Xóa
                 </button>
                 <button class="btn btn-warning btn-sm" onclick="sua()">
@@ -47,3 +47,14 @@ fetch("http://localhost:3000/products")
   .then((data) => {
     renderProducts(data);
   });
+function xoa(id) {
+  if (window.confirm("Bạn có chắc chắn muốn xóa sản phẩm này không?")) {
+    fetch(`http://localhost:3000/products/${id}`, { method: "DELETE" })
+      .then(() => {
+        alert("Xóa sản phẩm thành công");
+      })
+      .catch((err) => {
+        console.error(err);
+      });
+  }
+}

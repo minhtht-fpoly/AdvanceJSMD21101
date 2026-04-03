@@ -1,16 +1,6 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Laptop Dell Inspiron 15",
-      "price": 18500000,
-      "category": "Laptop",
-      "stock": 12,
-      "brand": "Dell",
-      "description": "Laptop phù hợp cho học tập và làm việc văn phòng",
-      "createdAt": "2026-04-01"
-    },
-    {
       "id": 2,
       "name": "iPhone 13",
       "price": 15000000,
@@ -18,7 +8,8 @@
       "stock": 8,
       "brand": "Apple",
       "description": "Điện thoại cao cấp với hiệu năng mạnh",
-      "createdAt": "2026-04-01"
+      "createdAt": "2026-04-01",
+      "isDeleted": false
     },
     {
       "id": 3,
@@ -39,6 +30,20 @@
       "brand": "Logitech",
       "description": "Chuột gaming giá rẻ, hiệu năng ổn định",
       "createdAt": "2026-04-01"
+    },
+    {
+      "name": "Sạc dự phòng Xiaomi 20000mAhhbjnkml,;,;lkmnjhbvhbjnkml,",
+      "price": "650000",
+      "catrgory": "Điện thoại",
+      "stock": "27",
+      "id": 5
+    },
+    {
+      "name": "Trần Hữu Tiến Minh",
+      "price": "123",
+      "catrgory": "Điện thoại",
+      "stock": "6576878990",
+      "id": 6
     }
   ]
 }
