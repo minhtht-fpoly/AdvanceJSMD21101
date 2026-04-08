@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="card shadow">
+      <div class="card-header bg-primary text-white">Đăng nhập</div>
+
+      <div class="card-body">
+        <form id="editForm" onsubmit="return loginAccount(event);">
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" />
+              <div id="err-email" style="color: red"></div>
+            </div>
+
+            <div class="col-md-6">
+              <label class="form-label">Mật khẩu</label>
+              <input type="password" class="form-control" id="password" />
+            </div>
+
+            <div class="col-12 text-end">
+              <input type="submit" name="" id="" value="Thêm sản phẩm" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.8/dist/axios.min.js"></script>
+    <script src="./login.js"></script>
+  </body>
+</html>

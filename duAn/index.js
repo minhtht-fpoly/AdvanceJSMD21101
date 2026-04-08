@@ -33,7 +33,7 @@ function renderProducts(arr) {
                     Xóa
                 </button>
                 <button class="btn btn-warning btn-sm" onclick="sua()">
-                    Sửa
+                    <a href= "edit.html?id=${product.id}">Sửa</a>
                 </button>
             </td>
         </tr>`;

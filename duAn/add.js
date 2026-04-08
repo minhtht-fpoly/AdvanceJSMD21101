@@ -1,4 +1,8 @@
 function addProduct() {
+  if (document.getElementById("name").value.trim().length == 0) {
+    document.getElementById("err-name").innerHTML = "Tên không được bỏ trống";
+    return false;
+  }
   const tenSP = document.getElementById("name").value;
   const giaSP = document.getElementById("price").value;
   const danhMucSP = document.getElementById("category").value;

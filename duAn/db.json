@@ -1,18 +1,14 @@
 {
   "products": [
     {
-      "id": 2,
-      "name": "iPhone 13",
-      "price": 15000000,
-      "category": "Smartphone",
-      "stock": 8,
-      "brand": "Apple",
-      "description": "Điện thoại cao cấp với hiệu năng mạnh",
-      "createdAt": "2026-04-01",
-      "isDeleted": false
+      "name": "iPhone 13120897654ew568790-9-83452324567890-",
+      "price": "15000000",
+      "catrgory": "",
+      "stock": "8",
+      "id": "2"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Tai nghe Sony WH-1000XM4",
       "price": 6500000,
       "category": "Accessories",
@@ -22,7 +18,7 @@
       "createdAt": "2026-04-01"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Chuột Logitech G102",
       "price": 350000,
       "category": "Accessories",
@@ -36,14 +32,34 @@
       "price": "650000",
       "catrgory": "Điện thoại",
       "stock": "27",
-      "id": 5
+      "id": "5"
     },
     {
       "name": "Trần Hữu Tiến Minh",
       "price": "123",
       "catrgory": "Điện thoại",
       "stock": "6576878990",
-      "id": 6
+      "id": "6"
+    },
+    {
+      "name": "122122312",
+      "price": "1212",
+      "catrgory": "Điện thoại",
+      "stock": "12241",
+      "id": "iRJTCkp_ny4"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json",
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$bxQWMd56YvT1xWeOcDmDg.sddvyx8TPAuxvhJbwNK/UG6DGcEbQUK",
+      "id": 1
+    },
+    {
+      "email": "admin1@gmail.com",
+      "password": "$2a$10$XzmnTJE3Fdk8rOSc3nrzjupypHIQWjts5dmcaKfH38UYxlbJjihLa",
+      "id": 2
     }
   ]
 }
